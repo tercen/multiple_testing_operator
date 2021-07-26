@@ -1,6 +1,6 @@
 {
-  "name": "Multiple testing operator",
-  "description": "Correct for multiple testing.",
+  "name": "Multiple Testing",
+  "description": "Corrects for the statistical liklihood of a Type 1 error (False Positive) due to the size of genetic data.",
   "tags": ["statistical testing", "test"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/template_R_operator"],
