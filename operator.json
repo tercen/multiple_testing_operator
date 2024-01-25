@@ -1,26 +1,30 @@
 {
   "name": "Multiple Testing",
   "description": "Corrects for the statistical liklihood of a Type 1 error (False Positive) due to the size of genetic data.",
-  "tags": ["statistical testing", "test"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_R_operator"],
+  "tags": [
+    "statistical testing"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/template_R_operator"
+  ],
   "properties": [
     {
-    "kind": "EnumeratedProperty",
-    "name": "method",
-    "defaultValue": "bonferroni",
-    "values": [
-      "bonferroni",
-      "BH",
-      "holm",
-      "hochberg",
-      "hommel", 
-      "BY",
-      "qvalue"
-    ],
-    "description": "Correction method."
-  }
+      "kind": "EnumeratedProperty",
+      "name": "method",
+      "defaultValue": "bonferroni",
+      "values": [
+        "bonferroni",
+        "BH",
+        "holm",
+        "hochberg",
+        "hommel",
+        "BY",
+        "qvalue"
+      ],
+      "description": "Correction method."
+    }
   ]
 }
-
-
