@@ -1,6 +1,6 @@
 {
   "name": "Multiple Testing",
-  "description": "Corrects for the statistical liklihood of a Type 1 error (False Positive) due to the size of genetic data.",
+  "description": "Applies a multiple testing correction to your data.",
   "tags": [
     "statistical testing"
   ],
