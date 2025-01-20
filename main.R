@@ -17,7 +17,8 @@ correct.pval <- function(pval, method) {
 
 ctx %>% 
   select(.ci, .ri, .y) %>% 
-  transmute(p_adjusted = correct.pval(.y, method)) %>% 
+  mutate(p_adjusted = correct.pval(.y, method)) %>% 
+  select(-.y) %>%
   mutate(neglog10_p_adjusted = -log10(p_adjusted)) %>% 
   ctx$addNamespace() %>%
   ctx$save()
