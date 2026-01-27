@@ -74,6 +74,43 @@
           }
         ]
       }
+    ],
+    "outputSpecsV2": [
+      {
+        "kind": "OperatorJoinSpec",
+        "joinOperators": [
+          {
+            "kind": "JoinOperator",
+            "joinType": "left",
+            "leftPair": {
+              "kind": "ColumnPair",
+              "lColumns": [
+                "Row",
+                "Column"
+              ],
+              "rColumns": [
+                "Row",
+                "Column"
+              ]
+            },
+            "rightRelation": {
+              "kind": "TableRelation",
+              "attributes": [
+                {
+                  "kind": "Attribute",
+                  "name": "p_adjusted",
+                  "type": "double"
+                },
+                {
+                  "kind": "Attribute",
+                  "name": "neglog10_p_adjusted",
+                  "type": "double"
+                }
+              ]
+            }
+          }
+        ]
+      }
     ]
   }
 }
