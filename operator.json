@@ -63,7 +63,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "P-Value",
-                "type": "numeric",
+                "type": "double",
                 "description": "P-values to adjust for multiple testing.",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
